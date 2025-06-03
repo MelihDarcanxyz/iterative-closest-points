@@ -1,6 +1,6 @@
 # Iterative Closest Point (ICP) Implementation
 
-This repository contains a Python implementation of the Iterative Closest Point (ICP) algorithm for aligning a [SMPL-X model](https://smpl-x.is.tue.mpg.de/) to a 3D point cloud with unknown correspondences. It utilizes [Chamfer Distance](https://pytorch3d.readthedocs.io/en/latest/_modules/pytorch3d/loss/chamfer.html) as loss function, which is a two-way point-to-point distance function. Please check out `main.ipynb` for more descriptive explanation.
+This repository contains a Python implementation of the Iterative Closest Point (ICP) algorithm for aligning a [SMPL-X model](https://smpl-x.is.tue.mpg.de/) to a 3D point cloud with unknown correspondences. It utilizes [Chamfer Distance](https://pytorch3d.readthedocs.io/en/latest/_modules/pytorch3d/loss/chamfer.html) as loss function, which is a two-way point-to-point distance function. Please check out [main.ipynb](https://github.com/MelihDarcanxyz/iterative-closest-points/blob/main/main.ipynb) for more descriptive explanation.
 
 ## File Structure
 
@@ -47,7 +47,7 @@ iterative-closest-points/
 
 ### Failed Convergences
 
-Experimenting with more sophisticated learning rate scheduling techniques, such as cyclical learning rates or adaptive learning rates, could lead to faster and more stable convergence.
+Experimenting with more sophisticated learning rate scheduling techniques, such as different cyclical learning rates or adaptive learning rates, could lead to faster and more stable convergence.
 
 Additionally, incorporating surface normals into the loss function, where we can understand the orientation of points, can provide valuable geometric information and potentially improve alignment accuracy, encouraging the aligned point clouds to not only be close in position but also in orientation.
 
