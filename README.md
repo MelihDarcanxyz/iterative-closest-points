@@ -1,6 +1,6 @@
 # Iterative Closest Point (ICP) Implementation
 
-This repository contains a Python implementation of the Iterative Closest Point (ICP) algorithm for aligning a [SMPL-X model](https://smpl-x.is.tue.mpg.de/) to a 3D point cloud with unknown correspondences. It utilizes [Chamfer Distance](https://pytorch3d.readthedocs.io/en/latest/_modules/pytorch3d/loss/chamfer.html) as loss function, which is a two-way point-to-point distance function.
+This repository contains a Python implementation of the Iterative Closest Point (ICP) algorithm for aligning a [SMPL-X model](https://smpl-x.is.tue.mpg.de/) to a 3D point cloud with unknown correspondences. It utilizes [Chamfer Distance](https://pytorch3d.readthedocs.io/en/latest/_modules/pytorch3d/loss/chamfer.html) as loss function, which is a two-way point-to-point distance function. Please check out `main.ipynb` for more descriptive explanation.
 
 ## File Structure
 
